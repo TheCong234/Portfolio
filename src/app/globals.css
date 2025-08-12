@@ -22,5 +22,55 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Geologica, Helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: Geologica;
+  src:  url(/fonts/Geologica-Medium.ttf)format("woff");
+  font-style: normal;
+  font-weight: 500; 
+  font-stretch: 100%;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%
+} 
+
+@font-face {
+  font-family: Geologica;
+  src: url(/fonts/Geologica-Thin.ttf)format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%
+} 
+
+@font-face {
+  font-family: Geologica;
+  src: url(/fonts/Geologica-Bold.ttf)format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 22%
+}
+ 
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+@keyframes spin-slower {
+  to { transform: rotate(360deg); }
+}
+.animate-bounce-slow {
+  animation: bounce 3s infinite;
+}
+.animate-pulse-slow {
+  animation: pulse 3s infinite;
+}
+.animate-spin-slower {
+  animation: spin-slower 8s linear infinite;
+} 
