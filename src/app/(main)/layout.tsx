@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../globals.css";
 import MainHeader from "@/components/main-header/page";
 import MainFooter from "@/components/main-footer/page";
+import AOSInit from "@/components/aos/AOSInit";
 
 export const metadata: Metadata = {
   title: "Main layout",
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <AOSInit />
         <div id="root">
           <MainHeader />
           <main> {children}</main>

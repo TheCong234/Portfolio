@@ -1,3 +1,5 @@
+"use client";
+import Typewriter from "typewriter-effect";
 export default function HomeSection() {
   return (
     <div className="min-h-screen bg-[#030014] overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] " id="Home">
@@ -47,7 +49,7 @@ export default function HomeSection() {
                     <span className="relative inline-block">
                       <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
                       <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-                        Frontend
+                        Software
                       </span>
                     </span>
                     <br />
@@ -61,7 +63,18 @@ export default function HomeSection() {
                 </div>
                 <div className="h-8 flex items-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="800">
                   <span className="text-xl md:text-2xl bg-gradient-to-r from-gray-100 to-gray-300 bg-clip-text text-transparent font-light">
-                    Network
+                    <Typewriter
+                      options={{
+                        strings: [
+                          "Front end - React.Js & Next.Js ",
+                          "Back end - Node.Js & MySql",
+                          "Solving Problems with Creativity and Code",
+                        ],
+                        autoStart: true,
+                        loop: true,
+                        delay: 80, // thời gian giữa các ký tự (ms)
+                      }}
+                    />
                   </span>
                   <span className="w-[3px] h-6 bg-gradient-to-t from-[#6366f1] to-[#a855f7] ml-1 animate-blink"></span>
                 </div>
