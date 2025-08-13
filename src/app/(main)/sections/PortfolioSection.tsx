@@ -5,7 +5,7 @@ export default function PortfolioSection() {
       className="min-h-screen pb-[10%] text-white overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm-mt-0"
       id="Portfolio"
     >
-      <div className="text-center pb-10 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+      <div className="text-center pb-10 aos-init" data-aos="fade-up" data-aos-duration="1000">
         <h2 className="inline-block text-3xl md:text-5xl font-bold text-center mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]">
           <span
             style={{
@@ -172,7 +172,7 @@ export default function PortfolioSection() {
                   <div className="MuiTypography-root MuiTypography-body1 css-fyswvn">
                     <div className="container mx-auto flex justify-center items-center overflow-hidden">
                       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 gap-5">
-                        <div data-aos="fade-up-right" data-aos-duration="1000" className="aos-init aos-animate">
+                        <div data-aos="fade-up-right" data-aos-duration="1000" className="aos-init ">
                           <div className="group relative w-full">
                             <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-slate-900/90 to-slate-800/90 backdrop-blur-lg border border-white/10 shadow-2xl transition-all duration-300 hover:shadow-purple-500/20">
                               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-pink-500/10 opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
@@ -247,7 +247,7 @@ export default function PortfolioSection() {
                             </div>
                           </div>
                         </div>
-                        <div data-aos="fade-up" data-aos-duration="1200" className="aos-init aos-animate">
+                        <div data-aos="fade-up" data-aos-duration="1200" className="aos-init ">
                           <div className="group relative w-full">
                             <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-slate-900/90 to-slate-800/90 backdrop-blur-lg border border-white/10 shadow-2xl transition-all duration-300 hover:shadow-purple-500/20">
                               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-pink-500/10 opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
@@ -323,7 +323,7 @@ export default function PortfolioSection() {
                             </div>
                           </div>
                         </div>
-                        <div data-aos="fade-up-left" data-aos-duration="1000" className="aos-init aos-animate">
+                        <div data-aos="fade-up-left" data-aos-duration="1000" className="aos-init ">
                           <div className="group relative w-full">
                             <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-slate-900/90 to-slate-800/90 backdrop-blur-lg border border-white/10 shadow-2xl transition-all duration-300 hover:shadow-purple-500/20">
                               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-pink-500/10 opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
